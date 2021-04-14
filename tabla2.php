@@ -13,13 +13,11 @@
 	 	</table>
 	 </div>
 <script> 
-const xhttp = new XMLHttpRequest();
-xhttp.open('GET','alumnos.xml',true); 
-xhttp.send(); 
+const xhttp = new XMLHttpRequest(); 
 xhttp.onreadystatechange = function(){
 	const mio = xhttp.responseXML; 
 	console.log(mio);
-	let resultado = "<th>Nombre</th><th>Carrera</th><th>Cuatri</th><th>suma</th>";
+	let resultado = "<th>Nombre</th><th>Carrera</th><th>Cuatri</th>";
 if(this.readyState == 4 && this.status == 200){
 	
 for (var i = 0; i<mio.length; i++){
@@ -28,8 +26,10 @@ for (var i = 0; i<mio.length; i++){
 	resultado+="<td>"+mio[i].cuatri+ "</td></tr>";
 }
 }
-
-document.getElementById("contenedor").innerText=this.responseText;
+xmlhttp.open("GET", "alumnos.xml", true);
+xmlhttp.send();
+resultado = resultado + "";
+document.getElementById("contenedor").innerHTML=resultado;
 }
 </script>
 </body>
