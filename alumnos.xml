@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding "UTF8?">
+<alumnos>
+<alumno>
+	<nombre>Sebastian </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Monserrat </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Bryan </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Yazmin </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Jose </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Jannet </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Axel </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Carmen </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Galo </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+<alumno>
+	<nombre>Milagros </nombre>
+	<carrera>TICS </carrera>
+	<cuatri>8 </cuatri>
+</alumno>
+</alumnos>
